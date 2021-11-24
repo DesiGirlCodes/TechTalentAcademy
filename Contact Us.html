@@ -6,7 +6,54 @@
 </head>
 
 <body>
+    <h1>Contact Us</h1>
     <main>
+
+        <form>
+        <ul>
+            <label for="name">Name:</label>
+            </br>
+            <input type="text" id="name" name="userName" placeholder="Your Name">
+        </ul>
+            <label for="email">Email Address:</label>
+            </br>
+            <input type="text" id="email" name="emailAddress" placeholder="Your email address">
+        </ul>
+        <ul>
+            <label for="mobile">Mobile number:</label>
+            </br>
+            <input type="text" id="mobile" name="mobileNumber" placeholder="Your mobile number">
+        </ul>
+        <ul>
+            <label for="country">Country:</label>
+            </br>
+        </ul>
+        <ul>
+            <select id="country" name="country" placeholder="Select your country">
+                <option value="placeholder">Select your country</option>
+                <option value="UK">United Kingdom</option>
+                <option value="USA">United States</option>
+                <option value="India">India</option>
+                <option value="other">other</option>
+            </select>
+        </ul>
+        <ul>
+            <label for="gender">Gender:</label>
+        </br>
+            <label for="G1">Male</label>
+                <input type="radio" name="gender" id="G1" value="Male">
+            <label for="G2">Female</label>
+                <input type="radio" name="gender" id="G2" value="Female">
+        </ul>
+        <ul>
+            <label for="message">Your query</label>
+            </br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+        </ul>
+        <ul>
+            <button type="button" onclick=>Submit</button>
+        </ul>
+        </form>
 
     </main>
 
